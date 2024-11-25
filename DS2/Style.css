@@ -722,12 +722,12 @@ p {
         justify-content: space-around; /* Espaciado entre los botones */
         width: 37vh;
         padding: 10px;
-        background-color: rgb(19, 19, 19);
         
     }
 
 
-    #downloadBtn, #cancelBtn{
+    #cancelBtn{
+        width: 70%;
         font-size: 70%;
         border: 2px solid #BDFF00;
         color: #BDFF00;
@@ -740,7 +740,7 @@ p {
     }
 
     /* Efecto hover para ambos botones */
-    #downloadBtn:hover, #cancelBtn:hover {
+     #cancelBtn:hover {
         opacity: 0.6;
     }
 
